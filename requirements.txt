@@ -1,0 +1,8 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+asyncpg
+redis
+pydantic
+python-dotenv
+httpx
