@@ -1,6 +1,6 @@
 # main.py
 from fastapi import FastAPI
-from app.api.router import router
+from app.api.v1.router import router
 from app.core.lifecycle import startup, shutdown
 
 app = FastAPI(title="TaskRouter AI")
